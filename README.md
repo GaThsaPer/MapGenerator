@@ -1,5 +1,5 @@
 # MapGenerator - still in progress
-Map Generator is my script writed in C# to procedural generation hexagonal map to TBS game. It was created in mind to integrate with Unity Engine, and can be used in mainly strategic games and other which needs hexagonal map.</br>
+Map Generator is my script writed in C# to procedural generation hexagonal map to TBS game. It was created in mind to integrate with Unity Engine, and can be used in mainly strategic games and other which needs dynamic hexagonal map generation.</br>
 Aim that script is to generate map to my game idea "Hexiv", which will be mainly TBS mobile game.</br>
 (Currently it only generate shapes of terrains without biomes, and only Archipelago and Lakes works. Rest of configurations aren's satisfies me.)
 ## Generation Method
