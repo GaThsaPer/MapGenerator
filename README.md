@@ -1,7 +1,7 @@
 # MapGenerator - still in progress
 Map Generator is a script I wrote in C# to procedural generation hexagonal map to TBS game. It was designed to integrate with the Unity Engine, and can be used in mainly strategic games and other which needs dynamic hexagonal map generation.</br>
 The goal of this script is to generate maps for my game concept, "Hexiv", which will be mainly TBS mobile game.</br>
-(Currently, it only generates terrain shapes, without biomes and only the Archipelago and Lakesoptions work correctly in my opinon. The rest of configurations aren's satisfies me.)
+(Currently, it only generates terrain shapes, without biomes and only the Archipelago and Lakesoptions work correctly. The rest of configurations aren's satisfy me.)
 ## Generation Method
 1. [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) - I'm using a perlin noise with some modifications like octaves, frequency and amplitude to get an expected results. Also I wrote a pin-pong modification to make rivers, but I didn's used it yet.
 2. [Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) - I use logic from Voronoi diagram generation, but with modifications. Instead of creating the entire diagram, I'm creating some points with coordinates and for each center of hex, I'm finding the nearest "Voronoi point" and assign that point attribute to hex.
