@@ -25,6 +25,7 @@ The goal of this script is to generate maps for my game concept, "Hexiv", which 
 There is a settings panel to configure map options and test Perlin Noise parameters</br></br>
 <img src="MapGitHub/Settings.png" width="200">
 # Visualization
+I'm showing each map type with each size.
 ## Archipelago
 <img src="MapGitHub/Archipelago_Large.png" width="350"> <img src="MapGitHub/Archipelago_Standard.png" width="350">
 <img src="MapGitHub/Archipelago_Small.png" width="350"> <img src="MapGitHub/Archipelago_Tiny.png" width="350">
